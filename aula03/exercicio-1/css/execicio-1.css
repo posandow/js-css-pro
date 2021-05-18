@@ -1,0 +1,21 @@
+body {
+    background: #002244;
+}
+
+div {
+    color: white;
+}
+
+div::before {
+    content: "";
+    border-left: 3px solid orange;
+    width: 10px;
+    height: 13px;
+    background: white;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+div::after {
+    content: " - Porto Alegre / RS";
+}
